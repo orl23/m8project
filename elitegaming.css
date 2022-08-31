@@ -1,4 +1,55 @@
-p{
-   font-size: 40px;
-    text-indent: 60%;
+
+nav {
+    text-align: center;
+    font-size: 35px;
+} 
+
+ul li {
+    list-style-type: none;
+/*     border: 1px solid white; */
+    display: inline;
+    margin: 0px 30px 0px 30px; /* TOP RIGHT BOTTOM LEFT */
+    color: #ffea96;
 }
+
+ul {
+    background-color: black;
+    padding: 10px;
+}
+
+li a:hover { 
+    background-color: red;
+    padding: 10px;
+}
+
+nav a {
+    padding: 10px;
+}
+
+
+
+body {
+    background-image: linear-gradient(to bottom right, #ff5e49, #4079ff);
+      background-position: center;
+      background-repeat: repeat-y;
+      background-size: cover;
+
+}
+
+#videos {
+    width: 500px;
+    margin: 0 auto 0 auto;
+
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+p{
+    font-family: 'Unna', serif;
+    font-size: 28px;
+}
+
+
