@@ -2,6 +2,9 @@
 nav {
     text-align: center;
     font-size: 35px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    
 } 
 
 ul li {
@@ -10,20 +13,35 @@ ul li {
     display: inline;
     margin: 0px 30px 0px 30px; /* TOP RIGHT BOTTOM LEFT */
     color: #ffea96;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    
+    
 }
 
 ul {
     background-color: black;
     padding: 10px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    
+    
 }
 
 li a:hover { 
-    background-color: red;
+    background-color: rgb(60, 217, 151);
     padding: 10px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    
 }
 
 nav a {
     padding: 10px;
+    text-decoration: none;
+    font-family: 'Silkscreen', cursive;
+    
+    
 }
 
 
@@ -36,20 +54,81 @@ body {
 
 }
 
-#videos {
-    width: 500px;
-    margin: 0 auto 0 auto;
-
+li{
+    font-size: 30px;
+    color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    width: 44%;
+    
 }
 
-h1 {
+#V2{
+    position: center;
+    margin: 0 0 0 60px;
+    
+}
+
+h1 {text-align: center;
     font-family: 'Bebas Neue', cursive;
+    font-size: 39px;
     
 }
 
 p{
     font-family: 'Unna', serif;
-    font-size: 28px;
+    font-size: 30px; 
+    color: aqua;
+    text-shadow: 25px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
 }
 
+a { font-size: 32px;
+    color: white;
+}
 
+footer{
+    border: black;
+    background-color: black;
+    position: center;
+    margin: 0 0 0 500px;
+    max-width: fit-content;
+    text-decoration: none;
+
+}
+
+iframe { display: block;
+    margin: auto;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .topImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+  }
+
+  .gamerImage { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+
+  }
+
+  h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 39px;
+  }
